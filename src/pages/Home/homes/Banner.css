@@ -1,0 +1,12 @@
+.BannerContainer{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0px;
+    background-color: #211C24;
+}
+
+p{
+    color: white;
+}
