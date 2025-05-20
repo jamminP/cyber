@@ -6,7 +6,7 @@ function DesktopHeader(){
             <img src='/logo/Color=Black.png' alt="logo"></img>
 
             {/* 검색창 */}
-            <div class="rounded-lg p-4 gap-2 bg-[#F5F5F5] flex items-center w-full max-w-[433px]"> 
+            <div class="rounded-lg p-4 gap-2 bg-[#F5F5F5] flex items-center w-full max-w-[433px] min-w-[7.5rem]"> 
                 <img src="/Icon/24px/Search.png" alt="search"></img>
                 <input type="text" placeholder="Search" class="bg-[#F5F5F5] focus: outline-none w-full"
                 ></input>
@@ -14,7 +14,7 @@ function DesktopHeader(){
 
             {/* Button */}
             <div class="flex gap-14">
-                <button>Home</button>
+                <button class="font-bold">Home</button>
                 <button>About</button>
                 <button>Contact Us</button>
                 <button>Blog</button>
