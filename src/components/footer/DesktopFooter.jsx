@@ -5,8 +5,8 @@ function DesktopFooter() {
             <div className="flex flex-col md:flex-row justify-center items-start gap-24">
             {/* 왼쪽 */}
             <div className="flex flex-col gap-6 w-[300px] text-center md:text-left">
-                <img src="/logo/Color=white.png" alt="logo" className="w-[96px] h-[32px] mx-auto md:mx-0" />
-                <p className="text-sm font-medium text-[#CFCFCF]">
+                <img src="/logo/Color=white.png" alt="logo" className="w-[96px] h-auto" />
+                <p className="text-sm font-medium text-[#CFCFCF] leading-[24px]">
                 We are a residential interior design firm located in Portland. Our boutique–studio offers more than
                 </p>
                 <div className="flex justify-center md:justify-start gap-4">
