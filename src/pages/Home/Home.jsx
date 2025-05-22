@@ -7,7 +7,7 @@ import Banner2 from './homes/Banner2';
 
 function Home(){
     return(
-        <div>
+        <div class="hidden">
             {/* 6개의 components가 들어와야함. */}
             <Banner></Banner>
             <SmallerBanners></SmallerBanners>
