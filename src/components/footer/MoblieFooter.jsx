@@ -6,7 +6,7 @@ function MoblieFooter() {
         {/* logo & content */}
         <div>
           <img
-            src="/logo/Color=white.png"
+            src="/logo/Color=White.png"
             alt="logo"
             className="w-[96px] h-[32px] mx-auto md:mx-0 p"
           />
