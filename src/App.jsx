@@ -4,7 +4,7 @@ import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className='font-noto'>
       <Header></Header>
       <Home></Home>
       <Footer></Footer>

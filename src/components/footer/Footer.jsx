@@ -1,16 +1,16 @@
-import DesktopFooter from "./DesktopFooter";
-import MoblieFooter from "./MoblieFooter";
+import DesktopFooter from './DesktopFooter';
+import MoblieFooter from './MoblieFooter';
 
 function Footer() {
   return (
     <footer>
       {/* 데스크탑 버전 */}
-      <div className="justify-center items-center text-[#CFCFCF] bg-black w-screen h-[464px] mx-auto gap-6 px-[104px] py-[160px] hidden md:flex">
+      <div className='mx-auto hidden h-[464px] w-screen items-center justify-center gap-6 bg-black px-[104px] py-[160px] text-[#CFCFCF] md:flex'>
         <DesktopFooter></DesktopFooter>
       </div>
 
       {/* 모바일 버전 */}
-      <div className="flex justify-center items-center md:hidden px-[32px] py-[48px] gap-8 bg-black text-[#CFCFCF] w-screen h-[744px]">
+      <div className='flex h-[744px] w-screen items-center justify-center gap-8 bg-black px-[32px] py-[48px] text-[#CFCFCF] md:hidden'>
         <MoblieFooter></MoblieFooter>
       </div>
       <div></div>

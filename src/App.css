@@ -1,14 +1,8 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    border: 0;
-}
-
-.App{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100vw;
-}
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+} */
