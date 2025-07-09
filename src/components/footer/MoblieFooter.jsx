@@ -6,7 +6,7 @@ function MoblieFooter() {
         {/* logo & content */}
         <div>
           <img
-            src="/logo/Color=white.png"
+            src="/logo/Color-White.png"
             alt="logo"
             className="w-[96px] h-[32px] mx-auto md:mx-0 p"
           />
@@ -15,7 +15,7 @@ function MoblieFooter() {
             boutique-studio offers more than
           </div>
         </div>
-        
+
         <div className="w-[311px] h-[464px] gap-8">
           {/* service */}
           <div className="w-[295.5px] h-[216px] gap-2 flex flex-col justify-center items-center">
