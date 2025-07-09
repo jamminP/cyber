@@ -1,9 +1,9 @@
-import Banner from "../components/homes/Banner";
-import SmallerBanners from "../components/homes/SmallerBanners";
-import Category from "../components/homes/Category";
-import Products from "../components/homes/Products";
-import Banners from "../components/homes/Banners";
-import Banner2 from "../components/homes/Banner2";
+import Banner from "@/components/homes/Banner";
+import SmallerBanners from "@/components/homes/SmallerBanners";
+import Category from "@/components/homes/Category";
+import Products from "@/components/homes/Products";
+import Banners from "@/components/homes/Banners";
+import Banner2 from "@/components/homes/Banner2";
 
 function Home() {
   return (
