@@ -1,10 +1,19 @@
 @import 'tailwindcss';
 
 @theme {
-  --breakpoint-md: 768px;
-  --font-noto: 'NotoSans', 'sans-serif';
+  ----breakpoint-md: 768px;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("/fonts/NotoSansKR-Thin.woff2") format("font-woff2"),
+    url("/fonts/NotoSansKR-Thin.woff") format("font-woff");
 }
 
 body {
-  /* color: var(--color-mint-500); */
+  font-family: "Noto Sans KR", sans-serif;
 }
