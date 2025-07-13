@@ -1,21 +1,24 @@
-function MainBanner(){
-
-    return (
-        <div className="flex items-center justify-center w-screen h-[632] bg-[#211C24] gap-20">
-            {/* text-place */}
-            <div className="text-white">
-                <p className="opacity-60 font-semibold">Pro.Beyond.</p>
-                <p className="text-[96px]">
-                    <span className="font-thin">IPhone 14 </span> 
-                    <span className="font-bold">Pro</span>
-                </p>
-                <p className="text-[#909090] font-medium text-[18px] mb-5">Created to change everything for the better. For everyone</p>
-                <button className="w-auto h-[56px] gap-2 border-[2px] border-solid py-[16px] px-[56px] rounded-[6px] hover:bg-[#493d4e] transition-colors duration-300">Skip Now</button>
-            </div>
-            {/* image-place */}
-            <img src="/image/Iphone Image.png"></img>
-        </div>
-    );
+function MainBanner() {
+  return (
+    <div className='flex h-[632] w-screen items-center justify-center gap-20 bg-[#211C24]'>
+      {/* text-place */}
+      <div className='text-white'>
+        <p className='font-semibold opacity-60'>Pro.Beyond.</p>
+        <p className='text-[96px]'>
+          <span className='font-thin'>IPhone 14 </span>
+          <span className='font-bold'>Pro</span>
+        </p>
+        <p className='mb-5 text-[18px] font-medium text-[#909090]'>
+          Created to change everything for the better. For everyone
+        </p>
+        <button className='h-[56px] w-auto gap-2 rounded-[6px] border-[2px] border-solid px-[56px] py-[16px] transition-colors duration-300 hover:bg-[#493d4e]'>
+          Skip Now
+        </button>
+      </div>
+      {/* image-place */}
+      <img src='/image/Iphone Image.png'></img>
+    </div>
+  );
 }
 
 export default MainBanner;

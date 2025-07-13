@@ -5,15 +5,17 @@
 }
 
 @font-face {
-  font-family: "Noto Sans KR";
+  font-family: 'Noto Sans KR';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src:
-    url("/fonts/NotoSansKR-Thin.woff2") format("font-woff2"),
-    url("/fonts/NotoSansKR-Thin.woff") format("font-woff");
+    url('/assets/fonts/NotoSansKR-Bold-subset.woff') format('font-woff'),
+    url('/assets/fonts/NotoSansKR-Bold-subset.woff2') format('font-woff2'),
+    url('/assets/fonts/NotoSansKR-Regular-subset.woff') format('font-woff'),
+    url('/assets/fonts/NotoSansKR-Regular-subset.woff2') format('font-woff2');
 }
 
 body {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
