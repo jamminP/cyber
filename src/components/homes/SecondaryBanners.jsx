@@ -13,9 +13,9 @@ function SecondaryBanners() {
                 />
               </div>
               <div className='pr- flex-1'>
-                <p className='text-8xl font-medium'>Playstation 5</p>
+                <p className='text-5xl font-medium'>Playstation 5</p>
                 <br />
-                <p className='mt-4 text-base font-medium text-[#909090]'>
+                <p className='mt-4 text-sm font-medium text-[#909090]'>
                   Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O
                   will redefine your PlayStation experience.
                 </p>
@@ -26,12 +26,12 @@ function SecondaryBanners() {
             <div className='flex-1/2'>
               <img src='/image/headphone.png' alt='air-pod' />
             </div>
-            <div className='flex-1/2 text-5xl font-light'>
+            <div className='flex-1/2 text-4xl font-light'>
               <p>Apple</p>
               <p>AirPods</p>
               <p className='font-bold'>Max</p>
-              <p className='mt-4 text-base'>Computational audio.</p>
-              <p className='text-base'>Listen, it's powerful</p>
+              <p className='mt-4 text-sm'>Computational audio.</p>
+              <p className='text-sm'>Listen, it's powerful</p>
             </div>
           </div>
 
@@ -44,11 +44,11 @@ function SecondaryBanners() {
               />
             </div>
             <div className='ml-6 flex flex-col justify-center'>
-              <p className='text-5xl leading-tight font-light'>
+              <p className='text-4xl leading-tight font-light'>
                 Apple <br />
                 Vision <span className='font-bold'>Pro</span>
               </p>
-              <p className='mt-3 text-base leading-snug text-[#a3a3a3]'>
+              <p className='mt-3 text-sm leading-snug text-[#a3a3a3]'>
                 An immersive way to <br />
                 experience <br />
                 entertainment
@@ -58,11 +58,11 @@ function SecondaryBanners() {
         </div>
         <div className='flex h-[600px] justify-between bg-[#EDEDED]'>
           <div className='ml-12 flex w-1/2 flex-col items-start justify-center'>
-            <h2 className='text-9xl font-light'>
+            <h2 className='text-7xl font-light'>
               Macbook <br />
               <span className='font-bold'>Air</span>
             </h2>
-            <p className='mt-7 text-lg text-gray-500'>
+            <p className='mt-7 text-base text-gray-500'>
               The new 15‑inch MacBook Air makes room for more of what you love
               with a spacious Liquid Retina display.
             </p>
