@@ -1,32 +1,32 @@
 function DesktopHeader() {
   return (
-    <div className="flex items-center justify-center gap-6 w-full mx-auto max-w-[1440px]">
+    <div className='mx-auto flex w-full max-w-[1440px] items-center justify-center gap-6'>
       {/* logo */}
-      <img src="/logo/Color-Black.png" alt="logo"></img>
+      <img src='/logo/Color-Black.png' alt='logo'></img>
 
       {/* 검색창 */}
-      <div className="rounded-lg p-4 gap-2 bg-[#F5F5F5] flex items-center w-full max-w-[433px] min-w-[7.5rem]">
-        <img src="/Icon/24px/Search.png" alt="search"></img>
+      <div className='flex w-full max-w-[433px] min-w-[7.5rem] items-center gap-2 rounded-lg bg-[#F5F5F5] p-4'>
+        <img src='/Icon/24px/Search.png' alt='search'></img>
         <input
-          type="text"
-          placeholder="Search"
-          className="bg-[#F5F5F5] focus: outline-none w-full"
+          type='text'
+          placeholder='Search'
+          className='focus: w-full bg-[#F5F5F5] outline-none'
         ></input>
       </div>
 
       {/* Button */}
-      <div className="flex gap-14">
-        <button className="font-bold">Home</button>
+      <div className='flex gap-14'>
+        <button className='font-bold'>Home</button>
         <button>About</button>
         <button>Contact Us</button>
         <button>Blog</button>
       </div>
 
       {/* Status */}
-      <div className="flex gap-6">
-        <img src="/Icon/32px/Favorites.png" alt="Favorites"></img>
-        <img src="Icon/32px/Cart.png" alt="cart"></img>
-        <img src="Icon/32px/User.png" alt="User"></img>
+      <div className='flex gap-6'>
+        <img src='/Icon/32px/Favorites.png' alt='Favorites'></img>
+        <img src='Icon/32px/Cart.png' alt='cart'></img>
+        <img src='Icon/32px/User.png' alt='User'></img>
       </div>
     </div>
   );

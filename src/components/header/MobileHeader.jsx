@@ -2,11 +2,11 @@ function MoblieHeader() {
   return (
     <>
       <img
-        src="/logo/Color-Black.png"
-        alt="logo"
-        className="w-[96px] h-[32px]"
+        src='/logo/Color-Black.png'
+        alt='logo'
+        className='h-[32px] w-[96px]'
       ></img>
-      <img src="/Icon/40px/Burger.png" alt="menu"></img>
+      <img src='/Icon/40px/Burger.png' alt='menu'></img>
     </>
   );
 }
