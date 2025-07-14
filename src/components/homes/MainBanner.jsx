@@ -15,7 +15,7 @@ function MainBanner() {
         </button>
       </div>
 
-      <div className='w-full md:w-[500px]'>
+      <div className='w-screen md:w-[500px]'>
         <img
           src='/image/Iphone Image.png'
           alt='iPhone 14 Pro'
