@@ -25,12 +25,12 @@ const ProductGrid = () => {
         );
 
   return (
-    <section className='px-4 py-8'>
+    <section className='px-40 py-8'>
       <div className='mb-6 flex gap-6 border-none'>
         {categories.map((cat) => (
           <button
             key={cat}
-            className={`border-b-3 pb-3 text-sm font-medium ${
+            className={`border-b-3 pb-3 text-xl font-medium ${
               selectedCategory === cat
                 ? 'border-black text-black'
                 : 'border-transparent text-gray-500 hover:text-black'
