@@ -26,7 +26,7 @@ const categories = [
 function CategoryList() {
   return (
     <div className='w-full bg-[#FAFAFA] px-40 py-20'>
-      <h2 className='mb-6 text-[24px] font-medium'>Browse By Category</h2>
+      <h2 className='mb-10 text-3xl font-medium'>Browse By Category</h2>
 
       <Swiper
         spaceBetween={16}
@@ -40,9 +40,9 @@ function CategoryList() {
       >
         {categories.map((cat, idx) => (
           <SwiperSlide key={idx}>
-            <div className='flex h-[128px] flex-col items-center justify-center rounded-md bg-[#f3f3f3] px-4 hover:bg-gray-200'>
-              <cat.icon size={24} />
-              <p className='mt-2 text-sm'>{cat.name}</p>
+            <div className='flex h-[150px] flex-col items-center justify-center rounded-md bg-[#f3f3f3] px-4 hover:bg-gray-200'>
+              <cat.icon size={50} />
+              <p className='mt-2 text-lg'>{cat.name}</p>
             </div>
           </SwiperSlide>
         ))}
